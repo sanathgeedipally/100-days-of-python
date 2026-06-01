@@ -6,7 +6,12 @@ tech.extend(["adobe","Tata"])
 print(tech)
 
 # removing from lists
-tech.pop(1)
-tech.remove("Tcs")
-tech.clear()
+# tech.pop(1)
+# tech.remove("Tcs")
+# tech.clear()
+
+# built-in methods
+tech.sort()
+tech.reverse()
+print(tech.index("Tcs"))
 print(tech)
